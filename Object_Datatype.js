@@ -1,4 +1,4 @@
-// Object : It provides un-Ordered data.
+// // Object : It provides un-Ordered data.
 
 // const Tom = {
 //     firstName : "Thimothy",
@@ -12,3 +12,27 @@
 
 // const nameKey = "Name"
 // console.log(Tom['first'+nameKey])
+
+// // this : This refers to current Object.
+
+// const thimothy = {
+//     birthYear : 2000,
+//     calcAge : function() {
+//         console.log(2024 - this.birthYear)
+//     }
+// }
+
+// thimothy.calcAge()
+
+// // Loops : for , while
+
+// for(let i = 1; i<= 10; i++)
+// {
+//     console.log(i)
+// }
+
+let i = 1
+while(i <= 10){
+    console.log(i);
+    i++;
+}
