@@ -21,7 +21,8 @@ Note :
 
 // // ---> Basic Array Operations :
 
-let val = [1,2,3,4]
+// let val = [1,2,3,4]
+// console.log(val)
 
 // // Push : To Add New value at  last.
 
@@ -54,4 +55,4 @@ let val = [1,2,3,4]
 // console.log(newArr)
 
 
-console.log(val)
+
