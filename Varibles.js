@@ -27,3 +27,6 @@
 // // Symbol : Unique and cant be changed.
 
 
+// Comments in js : // , /* */
+
+// To check data-type  : typeof
