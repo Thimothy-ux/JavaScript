@@ -55,4 +55,22 @@ Note :
 // console.log(newArr)
 
 
+// For-of :
+
+// let menu = [1,2,3,4]
+
+// for( let item of menu )
+// {
+//     console.log(item)
+// }
+
+
+
+// Gives index & element : Array.entries()
+
+// for( let [i,item] of menu.entries() )
+// {
+//     console.log(i,item)
+// }
+
 

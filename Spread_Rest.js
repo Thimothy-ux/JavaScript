@@ -128,7 +128,38 @@ Note :
 
 */
 
+// console.log(0 || 10)
+// console.log('Thimothy' || 10)
+
 // console.log(0 && 10)
 // console.log("" && 10)
 // console.log(false && 10)
 // console.log("Thimthy" && 10)
+
+
+/*
+
+  ----------------------- Optional chaining(?.) ------------------------------
+
+  By using the ?. operator instead of just ., JavaScript knows to implicitly check to be sure obj.first is not null or undefined before attempting to access obj.first.second. 
+  If obj.first is null or undefined, the expression automatically short-circuits, returning undefined.
+
+
+*/
+
+
+
+
+
+// const adventurer = {
+//   name: 'Alice',
+//   cat: {
+//     name: 'Dinah',
+//   },
+// };
+
+// const dogName = adventurer.dog?.name;
+// console.log(dogName);
+// // Expected output: undefined
+
+// console.log(adventurer.someNonExistentMethod?.());  // Output : undefined
