@@ -44,4 +44,18 @@
 
 // // join() : It converts array into the string.
 
+// console.log(['a','b','c'].join(''))
 
+// // padStart :  pasEnd : 
+
+// console.log("Abcd".padStart(25,'+'))
+
+// // repeat : To get no of copied strings.
+
+// console.log('abcada'.repeat(2))
+
+// // SubStr : To get part of string
+
+// console.log('abcdefg'.substr(2,5))
+
+// console.log('abcdefg'.substring(2,5))
